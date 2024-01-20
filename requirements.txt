@@ -1,0 +1,5 @@
+streamlit
+google.generativeai
+python-dotenv
+# pdf2image This library can be used if we are using gemini pro vision
+PyPDF2
