@@ -3,6 +3,7 @@ import google.generativeai as genai
 import os
 from dotenv import load_dotenv
 import json
+import PyPDF2 as pdf
 
 load_dotenv() ## Load my environment variables.
 
@@ -13,3 +14,12 @@ def get_gemini_response(input):
     response = model.generate_content(input)
     response = json.loads(response.text)
     return response
+
+def read_text_from_pdf(uploaded_files):
+    reader = pdf.PdfReader(uploaded_files) ## Read the pdf
+    text = ""
+    for page in range(len(reader.pages)): ## Loop over each page
+        page = reader.pages[page]
+        text += str(page.extract_text()) ## Append page-text into text variable
+
+    return text
