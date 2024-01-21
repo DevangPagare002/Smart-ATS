@@ -23,3 +23,16 @@ def read_text_from_pdf(uploaded_files):
         text += str(page.extract_text()) ## Append page-text into text variable
 
     return text
+
+input_prompt = """
+Hii, Act like you are a very skillful or experienced ATS(Application Tracking System).
+You have deep understanding of tech field, spftware engineering, data science, data analysis and big data
+engineer. Your task is to evaluate the resume based on given job description.
+You must consider that the job market is very competitive and you should provide bjest assistance for improving the resume according to job description.
+Assign the percentage matching  based on job description and the missing keyworkds with high accuracy.
+resume : {text}
+description : {jd}
+
+I want the response in one single string having a structure like -  
+{{"JD Match" : "%", "MissingKeywords" : [], "Profile Summary" : ""}}
+"""
