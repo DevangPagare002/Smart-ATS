@@ -3,12 +3,13 @@
 ## How to run this app?
 
 ## Step 1 - Clone the repository into your local folder using one of below 2 methods
-    `git clone https://github.com/DevangPagare002/Smart-ATS.git`
+    git clone https://github.com/DevangPagare002/Smart-ATS.git
 
-    `git clone git@github.com:DevangPagare002/Smart-ATS.git`
+    git clone git@github.com:DevangPagare002/Smart-ATS.git
 
 ## Step 2 - create a `.env` file
-    This is a file that stores the environment vairables, like your API key to access gemini pro model.
+
+- This is a file that stores the environment vairables, like your API key to access gemini pro model.
 
 ## Step 3 - Add the `GOOGLE_API_KEY` in the `.env` file.
 
