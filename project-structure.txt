@@ -1,0 +1,14 @@
+|----@Author    : Devang Dinesh Pagare (devpagare002@gmail.com)
+|
+|-----docker                            <- docker file
+|     |-----Dockerfile   
+|
+|-----.env                              <- environment variables
+|
+|-----.gitignore                        <- ignored files(eg. virtual env file, .env file)
+|
+|-----app.py                            <- App code
+|
+|-----project-structure                 <- Project structure explaination
+|
+|-----requirements.txt                  <- requirements.txt
