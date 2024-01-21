@@ -38,6 +38,7 @@ Then you'll see a Local URL and Network URL in your terminal. Paste any of them 
 [![output.png](https://i.postimg.cc/Bnh7gYtN/output.png)](https://postimg.cc/21ZxjxQB)
 
 ## Step 8 - Once you got the results, you can terminate the app through terminal by pressing `ctrl + c`.
-    Go into the terminal and press ctrl + c to terminate the app in browser.
+
+- Go into the terminal and press ctrl + c to terminate the app in browser.
 
 ## Step 9 - Now you can close the browser.
