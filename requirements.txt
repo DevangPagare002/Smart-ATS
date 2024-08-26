@@ -3,3 +3,10 @@ google.generativeai
 python-dotenv
 # pdf2image This library can be used if we are using gemini pro vision
 PyPDF2
+pypdf
+langchain_community
+pymupdf
+llama-index-core
+llama-parse
+llama-index-readers-file
+python-dotenv
