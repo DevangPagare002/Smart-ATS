@@ -9,7 +9,7 @@ from pathlib import Path
 
 
 # load_dotenv() ## Load my environment variables.
-llama-parser-api = st.secrets["api keys"]["LLAMA_CLOUD_API_KEY"]
+llama_parser_api = st.secrets["api keys"]["LLAMA_CLOUD_API_KEY"]
 
 st.set_page_config(layout="wide")
 
