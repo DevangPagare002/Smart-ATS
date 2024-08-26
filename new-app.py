@@ -67,7 +67,11 @@ jd = st.text_area(r"$\textsf{\Large Paste the Job Description}$")
 if uploaded_files:
 
     save_folder = "resumes"
-    save_path = Path(save_folder, uploaded_files.name)
+    folder_path = os.path.join(os.getcwd(), save_folder)
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
+
+    save_path = Path(folder_path, uploaded_files.name)
     with open(save_path, mode='wb') as w:
         w.write(uploaded_files.getvalue())
     
